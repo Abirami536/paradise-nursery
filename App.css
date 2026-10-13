@@ -1,0 +1,57 @@
+
+/* General page styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Paradise Nursery landing page */
+.landing-page {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.landing-page h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.get-started-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: #1b5e20;
+}
